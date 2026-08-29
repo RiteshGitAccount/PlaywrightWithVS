@@ -11,7 +11,8 @@
           "Microsoft.NET.Test.Sdk": "17.14.0",
           "Microsoft.Playwright.NUnit": "1.62.0",
           "NUnit": "4.3.2",
-          "NUnit3TestAdapter": "5.0.0"
+          "NUnit3TestAdapter": "5.0.0",
+          "PlaywrightDriver": "1.1.27"
         },
         "runtime": {
           "PlaywrightDemo.dll": {}
@@ -574,6 +575,18 @@
           "Microsoft.Testing.Extensions.VSTestBridge": "1.5.3",
           "Microsoft.Testing.Platform.MSBuild": "1.5.3"
         }
+      },
+      "PlaywrightDriver/1.1.27": {
+        "dependencies": {
+          "Microsoft.Playwright": "1.62.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/PlaywrightDriver.dll": {
+            "assemblyVersion": "1.1.27.0",
+            "fileVersion": "1.1.27.0"
+          }
+        }
       }
     }
   },
@@ -701,6 +714,13 @@
       "sha512": "sha512-sy4cLoUAdE6TDM4wNX5gmNCyhMev5wUz4cA6ZRf/aON9vf9t4xTVGLj/4huhDKcS4dFfmVVcgcP70yC7WC9kKg==",
       "path": "nunit3testadapter/5.0.0",
       "hashPath": "nunit3testadapter.5.0.0.nupkg.sha512"
+    },
+    "PlaywrightDriver/1.1.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/sZrAOZO1Nlr3BSdZyX0PMpETf3Ke/M9SCU1q0ycmqJKcp2j7tfI9GG9aJknc1bwNhnTDIgMrr0iDTkEDbCFsg==",
+      "path": "playwrightdriver/1.1.27",
+      "hashPath": "playwrightdriver.1.1.27.nupkg.sha512"
     }
   }
 }

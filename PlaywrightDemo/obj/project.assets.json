@@ -682,6 +682,19 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
       },
+      "PlaywrightDriver/1.1.27": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Playwright": "1.50.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "lib/net6.0/PlaywrightDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PlaywrightDriver.dll": {}
+        }
+      },
       "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
@@ -1771,6 +1784,18 @@
         "nunit_256.png"
       ]
     },
+    "PlaywrightDriver/1.1.27": {
+      "sha512": "/sZrAOZO1Nlr3BSdZyX0PMpETf3Ke/M9SCU1q0ycmqJKcp2j7tfI9GG9aJknc1bwNhnTDIgMrr0iDTkEDbCFsg==",
+      "type": "package",
+      "path": "playwrightdriver/1.1.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/PlaywrightDriver.dll",
+        "playwrightdriver.1.1.27.nupkg.sha512",
+        "playwrightdriver.nuspec"
+      ]
+    },
     "System.ComponentModel.Annotations/5.0.0": {
       "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "type": "package",
@@ -1869,6 +1894,7 @@
       "NUnit >= 4.3.2",
       "NUnit.Analyzers >= 4.7.0",
       "NUnit3TestAdapter >= 5.0.0",
+      "PlaywrightDriver >= 1.1.27",
       "coverlet.collector >= 6.0.4"
     ]
   },
@@ -1936,6 +1962,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "PlaywrightDriver": {
+            "target": "Package",
+            "version": "[1.1.27, )"
           },
           "coverlet.collector": {
             "target": "Package",

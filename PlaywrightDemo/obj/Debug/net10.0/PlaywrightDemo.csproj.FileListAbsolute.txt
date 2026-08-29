@@ -273,3 +273,5 @@ C:\Users\Admin\RiderProjects\PlaywrightDotNet\PlaywrightDemo\obj\Debug\net10.0\r
 C:\Users\Admin\RiderProjects\PlaywrightDotNet\PlaywrightDemo\obj\Debug\net10.0\PlaywrightDemo.pdb
 C:\Users\Admin\RiderProjects\PlaywrightDotNet\PlaywrightDemo\obj\Debug\net10.0\PlaywrightDemo.genruntimeconfig.cache
 C:\Users\Admin\RiderProjects\PlaywrightDotNet\PlaywrightDemo\obj\Debug\net10.0\ref\PlaywrightDemo.dll
+C:\Users\Admin\RiderProjects\PlaywrightDotNet\PlaywrightDemo\obj\Debug\net10.0\PlaywrightDemo.sourcelink.json
+C:\Users\Admin\RiderProjects\PlaywrightDotNet\PlaywrightDemo\bin\Debug\net10.0\PlaywrightDriver.dll
