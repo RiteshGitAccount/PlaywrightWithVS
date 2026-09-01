@@ -1,6 +1,20 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATaskAwaitAdapter_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2026_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fd3c187e0b88b1a56f2518fb9f4b5ee5ed6e9116d93a507969a932c16801033_003FTaskAwaitAdapter_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=235c84b2_002D7c9d_002D44cd_002D930d_002Ded576c7caebc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FlipKartLoginPage #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.Tests.FlipKartLoginPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3d8ffeaa_002D2af4_002D4aae_002D9dce_002D45fdd48b0192/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="LoginPage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.NUnitPlaywright.LoginPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.Tests.FlipKartLoginPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.Tests.NetworkCallCheck&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.Tests.GetCallCheck&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.Tests.CreatePostCallCheck&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7d3d8ac_002Defd6_002D4345_002D8abe_002D5ebeac481ea4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FlipKartLoginPage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::411AFDE1-FCD9-A135-F9CB-D6236D9E75E7::net10.0::PlaywrightDemo.Tests.FlipKartLoginPage&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
