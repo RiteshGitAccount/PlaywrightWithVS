@@ -1,16 +1,48 @@
-## Visual Studio
+### Visual Studio ###
+# User-specific files
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-## Build
+### Build outputs ###
 bin/
 obj/
+**/bin/
+**/obj/
 
-## Rider
-.idea/
+### NuGet ###
+*.nupkg
+/packages/
+.nuget/
 
-## Test result files
+### Playwright ###
+.playwright/
+playwright-report/
+recordings/
+playwright-report.zip
+
+### Test results / test artifacts ###
 TestResults/
+*.trx
+*.testlog
+nunit_random_seed.tmp
+
+### IDEs ###
+# Rider
+.idea/
+*.iml
+# VS Code
+.vscode/
+
+### Logs and caches ###
+*.log
+.DS_Store
+Thumbs.db
+
+### Misc / temporary ###
+*.bak
+*.backup
+*.local
+
