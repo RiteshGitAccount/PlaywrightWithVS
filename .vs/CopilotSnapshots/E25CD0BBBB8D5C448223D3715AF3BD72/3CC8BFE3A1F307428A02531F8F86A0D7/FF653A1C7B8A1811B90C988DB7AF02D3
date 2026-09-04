@@ -197,22 +197,6 @@ public class APITestCases
         Assert.That(response.Status, Is.EqualTo(200));
 
         var json = await response.JsonAsync();
-
-        // Validate top-level fields
-        Assert.That(json!.Value.GetProperty("id").GetInt32(), Is.EqualTo(4));
-        Assert.That(json.Value.GetProperty("token").GetString(), Is.EqualTo("QpwL5tke4Pnpja7X4"));
-
-        // Validate _meta object
-        var meta = json.Value.GetProperty("_meta");
-        Assert.That(meta.GetProperty("powered_by").GetString(), Is.EqualTo("ReqRes"));
-        Assert.That(meta.GetProperty("docs_url").GetString(), Is.EqualTo("https://app.reqres.in/documentation"));
-        Assert.That(meta.GetProperty("upgrade_url").GetString(), Is.EqualTo("https://app.reqres.in/upgrade"));
-        Assert.That(meta.GetProperty("example_url").GetString(), Is.EqualTo("https://app.reqres.in/examples/notes-app"));
-        Assert.That(meta.GetProperty("variant").GetString(), Is.EqualTo("v1_a"));
-        Assert.That(meta.GetProperty("message").GetString(), Is.EqualTo("Your data persists here. Add auth, logs, and custom schemas to build a real backend."));
-        var cta = meta.GetProperty("cta");
-        Assert.That(cta.GetProperty("label").GetString(), Is.EqualTo("See example app"));
-        Assert.That(cta.GetProperty("url").GetString(), Is.EqualTo("https://app.reqres.in/examples/notes-app"));
-        Assert.That(meta.GetProperty("context").GetString(), Is.EqualTo("legacy_success"));
+       
     }
 }

@@ -1,0 +1,16 @@
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build
+bin/
+obj/
+
+## Rider
+.idea/
+
+## Test result files
+TestResults/
