@@ -4,7 +4,7 @@ using PlaywrightDemo.Pages;
 
 namespace PlaywrightDemo;
 
-public class APITestCases
+public class APITestCasesFile
 {
     [SetUp]
     public void Setup()
@@ -12,7 +12,7 @@ public class APITestCases
     }
 
     [Test]
-    public async Task FlipKartLoginPage()
+    public async Task UILoginSampleTestCase()
     {
         using var playwright = await Playwright.CreateAsync();
         await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
@@ -20,7 +20,7 @@ public class APITestCases
             Headless = false
         });
         var page = await browser.NewPageAsync();
-        await page.GotoAsync("http://uitestingplayground.com/sampleapp");
+        await page.GotoAsync(TestConfig.Url("/sampleapp"));
         LoginPages loginPages = new LoginPages(page);
 
         await page.ScreenshotAsync(new PageScreenshotOptions
