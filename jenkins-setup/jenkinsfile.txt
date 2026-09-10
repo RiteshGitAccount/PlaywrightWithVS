@@ -1,0 +1,49 @@
+pipeline {
+  agent {
+	docker {
+	  image 'mcr.microsoft.com/dotnet/sdk:7.0'
+	  args '--cap-add=SYS_ADMIN --shm-size=1g'
+	}
+  }
+  environment {
+	DOTNET_CLI_TELEMETRY_OPTOUT = '1'
+  }
+  stages {
+	stage('Checkout') {
+	  steps {
+		checkout scm
+	  }
+	}
+	stage('Restore') {
+	  steps {
+		sh 'dotnet restore'
+	  }
+	}
+	stage('Build') {
+	  steps {
+		sh 'dotnet build --no-restore -c Release'
+	  }
+	}
+	stage('Install Playwright Browsers (if needed)') {
+	  steps {
+		sh 'dotnet tool restore || true'
+		sh 'npx playwright install --with-deps || true'
+	  }
+	}
+	stage('Test') {
+	  steps {
+		sh 'dotnet test --no-build -c Release --logger:trx'
+	  }
+	  post {
+		always {
+		  junit '**/TestResults/*.trx'
+		}
+	  }
+	}
+  }
+  post {
+	always {
+	  echo 'Pipeline finished'
+	}
+  }
+}
